@@ -43,10 +43,8 @@ second_largest_number = numbers[0]
 
 for num in numbers:
     if num > largest_number:
+        second_largest_number = largest_number
         largest_number = num
-    numbers.remove(largest_number)
-    if num > second_largest_number:
-        second_largest_number = num
 
 
 print("Second largest number:", second_largest_number)

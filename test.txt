@@ -1,0 +1,4 @@
+Hello, World!
+This is a test file.
+File handling in Python is easy.
+Appending a new line to the file.
